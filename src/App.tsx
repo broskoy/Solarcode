@@ -1,7 +1,12 @@
 import { createSignal } from 'solid-js'
 import solidLogo from './assets/frameworks/solid.svg'
 import viteLogo from './assets/frameworks/vite.svg'
+import solarLogo from './assets/logo/solar_transparent.png'; 
+import nameLogo from './assets/logo/name_transparent.png';
 import './App.css'
+
+
+
 
 function App() {
   const [count, setCount] = createSignal(0);
@@ -10,12 +15,12 @@ function App() {
     <>
       <div class="image-container">
         <img 
-          src="/src/assets/logo/solar_transparent.png" 
+          src={solarLogo} 
           alt="solar" 
           class="logo-solar-image" 
         />
         <img 
-          src="/src/assets/logo/name_transparent.png" 
+          src={nameLogo}
           alt="solarcode" 
           class="logo-text-image" 
         />

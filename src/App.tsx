@@ -1,6 +1,6 @@
 import { createSignal } from 'solid-js'
-import solidLogo from '/public/frameworks/solid.svg'
-import viteLogo from '/public/frameworks/vite.svg'
+import solidLogo from '/src/assets/frameworks/solid.svg'
+import viteLogo from '/src/assets/frameworks/vite.svg'
 import './App.css'
 
 function App() {
@@ -10,12 +10,12 @@ function App() {
     <>
       <div class="image-container">
         <img 
-          src="/public/logo/solar_transparent.png" 
+          src="/src/assets/logo/solar_transparent.png" 
           alt="solar" 
           class="logo-solar-image" 
         />
         <img 
-          src="/public/logo/name_transparent.png" 
+          src="/src/assets/logo/name_transparent.png" 
           alt="solarcode" 
           class="logo-text-image" 
         />

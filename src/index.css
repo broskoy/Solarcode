@@ -36,19 +36,19 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  border-radius: 1vh;
+  border: 0.1vh solid transparent;
+  padding: 0;
   font-size: 3vh;
   font-weight: 500;
   font-family: inherit;
   background-color: #212121;
   cursor: pointer;
   transition: border-color 0.25s;
-  margin-top: 20vh;
-  margin-bottom: 30vh;
-  width: 20vh;
-  height: 10vh;
+  margin-top: 30vh;
+  margin-bottom: 36vh;
+  width: 16vh;
+  height: 8vh;
 }
 button:hover {
   border-color: #f5d248;

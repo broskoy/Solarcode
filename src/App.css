@@ -10,18 +10,18 @@
   display: flex;
   justify-content: center; 
   align-items: center;
-  margin: 0;
-  gap: 1vw; 
+  margin-top: 1vh;
+  gap: 0; 
 }
 
 .logo-solar-image {
-  width: 30vh;
-  height: 30vh;
+  width: 30%;
+  height: 30%;
 }
 
 .logo-text-image {
-  width: 60vh;
-  height: 30vh;
+  width: 60%;
+  height: 30%;
 }
 
 .logo {

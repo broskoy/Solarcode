@@ -25,7 +25,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  place-items: start;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -45,8 +45,8 @@ button {
   background-color: #212121;
   cursor: pointer;
   transition: border-color 0.25s;
-  margin-top: 10vh;
-  margin-bottom: 20vh;
+  margin-top: 20vh;
+  margin-bottom: 30vh;
   width: 20vh;
   height: 10vh;
 }

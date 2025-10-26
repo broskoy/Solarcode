@@ -1,28 +1,28 @@
 import { createSignal } from 'solid-js'
-import solidLogo from './assets/solid.svg'
-import viteLogo from '/vite.svg'
+import solidLogo from '/public/frameworks/solid.svg'
+import viteLogo from '/public/frameworks/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = createSignal(0);
+  const [count, setCount] = createSignal(1);
 
   return (
     <>
       <div class="image-container">
         <img 
-          src="/public/logo/solar-transparent.png" 
+          src="/public/logo/solar_transparent.png" 
           alt="solar" 
           class="logo-solar-image" 
         />
         <img 
-          src="/public/logo/name-transparent.png" 
+          src="/public/logo/name_transparent.png" 
           alt="solarcode" 
           class="logo-text-image" 
         />
       </div>
 
       <div class="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => (2*count))}>
           Clicks: {count()}
         </button>
       </div>

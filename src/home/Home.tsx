@@ -8,7 +8,6 @@ import nameLogo from '../assets/logo/name_transparent.png';
 import Solutions from './solutions/Solutions';
 
 import './Home.css'
-import Navbar from '../Navbar';
 
 
 
@@ -17,8 +16,6 @@ import Navbar from '../Navbar';
 function Home() {
   return (
     <>
-      <Navbar/>
-
       <div class="image-container">
         <img 
           src={solarLogo} 

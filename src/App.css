@@ -1,0 +1,51 @@
+#root {
+  max-width: 60vh;
+  max-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 1vh;
+  gap: 0; 
+}
+
+
+
+.logo-solar-image {
+  width: 30%;
+  height: 30%;
+}
+
+
+
+.logo-text-image {
+  width: 60%;
+  height: 30%;
+}
+
+
+
+.logo {
+  height: 3em;
+  height: 5vh;
+  will-change: filter;
+  transition: filter 300ms;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.solid:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}

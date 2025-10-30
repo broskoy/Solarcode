@@ -1,0 +1,55 @@
+.bottom-bar {
+  padding: 1.5rem 2rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e7e7e7;
+  margin-top: 3rem;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-copyright {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-link {
+  font-size: 0.9rem;
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #007bff; /* Highlight on hover */
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+  .bottom-bar {
+    background-color: #212529;
+    border-top-color: #444;
+  }
+
+  .footer-copyright,
+  .footer-link {
+    color: #adb5bd;
+  }
+
+  .footer-link:hover {
+    color: #4dabf7;
+  }
+}

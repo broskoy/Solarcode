@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 
 function App(props: ParentProps) {
   return (
-    <div class="App">
+    <div class="App flex flex-col min-h-screen">
       <Navbar/>
       <main>
         {props.children} 

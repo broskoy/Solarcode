@@ -1,22 +1,24 @@
-import { createSignal } from 'solid-js'
+import solidLogo from '../assets/frameworks/solid.svg'
+import viteLogo from '../assets/frameworks/vite.svg'
+import plusImage from '../assets/frameworks/plus.png'
 
-import solidLogo from './assets/frameworks/solid.svg'
-import viteLogo from './assets/frameworks/vite.svg'
-import plusImage from './assets/frameworks/plus.png'
+import solarLogo from '../assets/logo/solar_transparent.png'; 
+import nameLogo from '../assets/logo/name_transparent.png';
 
-import solarLogo from './assets/logo/solar_transparent.png'; 
-import nameLogo from './assets/logo/name_transparent.png';
+import Solutions from './solutions/Solutions';
 
-import './App.css'
-
+import './Home.css'
+import Navbar from '../Navbar';
 
 
 
-function App() {
-  const [count, setCount] = createSignal(0);
 
+
+function Home() {
   return (
     <>
+      <Navbar/>
+
       <div class="image-container">
         <img 
           src={solarLogo} 
@@ -30,11 +32,7 @@ function App() {
         />
       </div>
 
-      <div class="card">
-        <button onClick={() => setCount((count) => (count + 1))}>
-          Clicks: {count()}
-        </button>
-      </div>
+      <Solutions />
 
       <div class="frameworks">
         <a href="https://vite.dev" target="_blank">
@@ -51,4 +49,4 @@ function App() {
   );
 }
 
-export default App
+export default Home

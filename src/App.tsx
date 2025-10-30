@@ -7,7 +7,7 @@ function App(props: ParentProps) {
     <div class="flex flex-col min-h-screen w-screen text-center">
       <TopBar />
 
-      <main class="flex flex-col flex-grow w-full max-w-6xl mx-auto px-4 py-8">
+      <main class="flex flex-col flex-grow w-full max-w-5xl mx-auto px-4 py-8">
         {props.children}
       </main>
       

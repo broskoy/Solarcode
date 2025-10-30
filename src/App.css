@@ -9,5 +9,6 @@
 
 main {
   max-width: 100vh;
+  min-width: 60vh;
   margin: 0 auto;
 }

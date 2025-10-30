@@ -12,22 +12,21 @@ function BottomBar() {
           © {new Date().getFullYear()} SolarCode. All rights reserved.
         </p>
         <div class="footer-links">
-          {/* You can add routes for these later */}
           <A href="/privacy" class="footer-link">Privacy Policy</A>
           <A href="/terms" class="footer-link">Terms of Service</A>
         </div>
-      </div>
 
-      <div class="frameworks">
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} class="logo" alt="Vite logo" />
-        </a>
+        <div class="frameworks">
+          <a href="https://vite.dev" target="_blank">
+            <img src={viteLogo} class="logo" alt="Vite logo" />
+          </a>
 
-        <img src={plusImage} class="separator" alt="plus" />
+          <img src={plusImage} class="separator" alt="plus" />
 
-        <a href="https://solidjs.com" target="_blank">
-          <img src={solidLogo} class="logo solid" alt="Solid logo" />
-        </a>
+          <a href="https://solidjs.com" target="_blank">
+            <img src={solidLogo} class="logo solid" alt="Solid logo" />
+          </a>
+        </div>
       </div>
     </footer>
   );

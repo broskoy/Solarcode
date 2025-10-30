@@ -9,7 +9,7 @@ function Placeholder() {
 
     return(
         <>
-        <h2>
+        <h2 class="title2">
             Placeholder Page
         </h2>
 

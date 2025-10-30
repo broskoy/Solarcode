@@ -1,0 +1,13 @@
+Dark Gray: 222
+
+Gray: 27272a
+
+Purple: 5f236b
+
+Pink: be375f
+
+Orange: ed8554
+
+Yellow: f5eb6d
+
+Maybe yellow: f5d248

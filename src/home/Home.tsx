@@ -3,7 +3,7 @@
 import solarLogo from '../assets/logo/solar_transparent.png'; 
 import nameLogo from '../assets/logo/name_transparent.png';
 
-import Solutions from './solutions/Solutions';
+import Solutions from '../components/Solutions';
 
 import './Home.css'
 

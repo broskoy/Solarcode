@@ -1,13 +1,20 @@
-Dark Gray: 222
+Good palette:
 
-Gray: 27272a
+gray = 27272a
 
-Purple: 5f236b
+purple = 5f236b
 
-Pink: be375f
+pink = be375f
 
-Orange: ed8554
+orange = ed8554
 
-Yellow: f5eb6d
+yellow = f5eb6d
 
-Maybe yellow: f5d248
+
+
+
+Uncertain colors:
+
+dark gray = 222
+
+yellow = f5d248

@@ -1,10 +1,10 @@
 import { render } from 'solid-js/web'
 import { Router, Route, Navigate } from '@solidjs/router';
-import Home from './home/Home';
-import Placeholder from './placeholder/Placeholder';
+import Home from './pages/Home';
+import Placeholder from './pages/Placeholder';
 import './index.css'
 import App from './App';
-import NotFound from './NotFound';
+import NotFound from './pages/NotFound';
 
 const root = document.getElementById('root')
 

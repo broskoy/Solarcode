@@ -1,13 +1,13 @@
 import { type ParentProps } from 'solid-js';
-import BottomBar from './BottomBar';
-import Navbar from './Navbar';
+import BottomBar from './components/BottomBar';
+import TopBar from './components/TopBar';
 
 function App(props: ParentProps) {
   return (
     <div class="flex flex-col min-h-screen w-screen text-center">
-      <Navbar />
-      
-      <main class="flex-grow w-full max-w-7xl mx-auto px-4 py-8">
+      <TopBar />
+
+      <main class="flex flex-col flex-grow w-full max-w-7xl mx-auto px-4 py-8">
         {props.children}
       </main>
       

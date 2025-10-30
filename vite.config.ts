@@ -10,5 +10,11 @@ export default defineConfig({
   base: '/',
   server: {
     port: 3000
-  }
+  },
+  optimizeDeps: {
+    include: ['lucide-solid'],
+  },
+  ssr: {
+    noExternal: ['lucide-solid'],
+  },
 })

@@ -2,6 +2,7 @@ import solarLogo from '../assets/logo/solar_transparent.png';
 import nameLogo from '../assets/logo/name_transparent.png';
 
 import Solutions from '../components/Solutions';
+import WhyChooseUs from '../components/WhyChooseUs';
 
 
 
@@ -16,10 +17,7 @@ function Home() {
       <div class="flex justify-center items-center mt-8 mb-24 gap-0">
         <img 
           src={solarLogo} 
-          alt="solar" 
-          // 'w-1/3': (33.3%) A standard Tailwind class close to 30%.
-          // Or, use an exact arbitrary value: 'w-[30%]'
-          // 'h-auto': Fixes the aspect ratio (replaces 'h-30%').
+          alt="solar"
           class="w-1/3 h-auto" 
         />
         <img 
@@ -32,6 +30,10 @@ function Home() {
       </div>
 
       <Solutions />
+
+      <div class="my-24">
+        <WhyChooseUs />
+      </div>
     </>
   );
 }

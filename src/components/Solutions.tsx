@@ -54,7 +54,7 @@ function Solutions() {
               class="block rounded-xl transition-all duration-200 ease-in-out hover:scale-[1.04] focus:outline-none focus:ring-2 focus:ring-blue-400"
             >
               <div 
-                class="h-full p-6 bg-gradient-to-tr from-[#5f236b] to-[#be375f] rounded-xl shadow-md text-left overflow-hidden hover:shadow-lg"
+                class="h-full p-6 bg-gradient-to-br from-[#5f236b] to-[#be375f] rounded-xl shadow-md text-left overflow-hidden hover:shadow-lg"
               >
                 {/* card title */}
                 <h3 class="text-xl font-bold text-gray-100">

@@ -5,13 +5,13 @@ import Navbar from './Navbar';
 
 function App(props: ParentProps) {
   return (
-    <>
+    <div class="App">
       <Navbar/>
       <main>
         {props.children} 
       </main>
       <BottomBar/>
-    </>
+    </div>
   );
 }
 

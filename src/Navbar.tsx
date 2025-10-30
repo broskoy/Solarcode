@@ -1,6 +1,6 @@
 import { A } from '@solidjs/router';
-import solarLogo from './assets/logo/solar_transparent.png';
-import nameLogo from './assets/logo/name_transparent.png';
+import logoIcon from './assets/logo/solar_transparent.png';
+import logoName from './assets/logo/name_transparent.png';
 import './Navbar.css';
 
 
@@ -12,7 +12,12 @@ function Navbar() {
       {/* Logo Section (Left) */}
       <A href="/" class="nav-logo-link">
         <img 
-          src={nameLogo} 
+          src={logoIcon} 
+          alt="SolarCode Icon" 
+          class="nav-logo-icon" 
+        />
+        <img 
+          src={logoName} 
           alt="SolarCode Name" 
           class="nav-logo-name" 
         />

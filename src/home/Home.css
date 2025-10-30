@@ -17,36 +17,3 @@
   height: 30%;
 }
 
-.logo {
-  height: 5vh;
-  will-change: filter;
-  transition: filter 300ms;
-  margin-left: 0;
-  margin-right: 0;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.solid:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-.separator {
-  height: 4vh;
-  margin-top: 0.6vh;
-  margin-left: 1vh;
-  margin-right: 1vh;
-}
-
-.frameworks {
-  display: flex;
-  justify-content: center;
-}
-
-.card {
-  padding: 0;
-}
-
-.read-the-docs {
-  color: #888;
-}

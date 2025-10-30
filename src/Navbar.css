@@ -1,46 +1,43 @@
 .navbar {
-  display: flex; /* Arrange items horizontally */
-  justify-content: space-between; /* Push logo left, links right */
-  align-items: center; /* Vertically center items */
-  padding: 0; /* Add padding top/bottom and left/right */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
   height: 8vh;
-  background-color: #222; /* Light background color */
-  border-bottom: 1px solid #444; /* Subtle bottom border */
+  background-color: #222;
+  border-bottom: 1px solid #444;
   box-shadow: 0 2px 4px rgba(173, 100, 100, 0.05);
 }
 
 .nav-logo-link {
-  display: flex; /* Keep logo and name side-by-side */
-  align-items: center; /* Vertically align them */
-  text-decoration: none; /* Remove underline from link */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 .nav-logo-icon {
-  height: 4vh; /* Adjust size as needed */
-  margin-left: 1vh; /* Space between icon and name */
+  height: 4vh;
+  margin-left: 2vh;
 }
 
 .nav-logo-name {
-  height: 25px; /* Adjust size as needed */
+  height: 4vh;
 }
 
-/* Links list styling */
 .nav-links {
-  list-style: none; /* Remove bullet points */
-  display: flex; /* Arrange links horizontally */
-  margin: 0;
+  list-style: none;
+  display: flex;
+  margin-right: 2vh;
   padding: 0;
-  gap: 1.5rem; /* Space between links */
+  gap: 3vh;
 }
 
-/* Individual link styling */
 .nav-link {
-  text-decoration: none; /* Remove underline */
-  color: #eee; /* Link color */
+  text-decoration: none;
+  color: #eee;
   font-weight: 500;
   transition: color 0.2s ease;
 }
-
 .nav-link:hover {
-  color: #4dabf7; /* Change color on hover */
+  color: #f5eb6d; 
 }

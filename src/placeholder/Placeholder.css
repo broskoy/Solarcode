@@ -1,3 +1,7 @@
+h2 {
+  margin-top: 30vh;
+}
+
 button {
   border-radius: 1vh;
   border: 0.1vh solid transparent;
@@ -8,7 +12,7 @@ button {
   background-color: #212121;
   cursor: pointer;
   transition: border-color 0.25s;
-  margin-top: 32vh;
+  margin-top: 2vh;
   margin-bottom: 34vh;
   width: 16vh;
   height: 8vh;

@@ -2,7 +2,7 @@
 .category-cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
-  gap: 2vh;
+  gap: 4vh;
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
@@ -11,28 +11,28 @@
 .category-card {
   border: 1px solid #444;
   height: 20vh;
-  border-radius: 8px;
-  padding: 1vh;
+  border-radius: 1vh;
+  padding: 4vh;
   overflow-y: hidden;
   text-overflow: clip;
   background-color: #222;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  text-align: left; /* Align text to the left */
+  text-align: left;
   transition: transform 0.2s ease-in-out;
 }
 
 .category-card:hover {
-  transform: scale(1.03); /* Enlarge card slightly on hover */
+  transform: scale(1.04);
 }
 
 .category-card h3 {
-  margin-top: 0; /* Remove default top margin */
+  margin-top: 0;
   color: #eee;
 }
 
 .category-card p {
   color: #bbb;
-  font-size: 0.9rem;
+  font-size: 1.6vh;
   line-height: 1.4;
 }
 

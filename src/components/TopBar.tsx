@@ -22,7 +22,7 @@ function TopBar() {
         <img 
           src={logoName} 
           alt="SolarCode Name" 
-          class="h-8" 
+          class="h-20" 
         />
       </A>
 

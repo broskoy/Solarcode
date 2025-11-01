@@ -1,6 +1,6 @@
 Good palette:
 
-gray = 27272a
+gray = 222222
 
 purple = 5f236b
 
@@ -15,10 +15,4 @@ yellow = f5eb6d
 
 Uncertain colors:
 
-dark gray = 222
-
 yellow = f5d248
-
-
-Tag line:
-Bringing Bright Ideas to Light

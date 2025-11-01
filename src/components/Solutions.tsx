@@ -51,10 +51,11 @@ function Solutions() {
           {(category) => (
             <A 
               href="/placeholder" 
-              class="block rounded-xl transition-all duration-200 ease-in-out hover:scale-[1.04] focus:outline-none focus:ring-2 focus:ring-blue-400"
+              class="block rounded-xl transition-all duration-200 ease-in-out hover:scale-[1.04] focus:outline-none focus:ring-2 focus:ring-blue-400
+                     p-[2px] bg-gradient-to-r from-[#f5eb6d] to-[#ed8554]"
             >
               <div 
-                class="h-full p-6 bg-gradient-to-br from-[#5f236b] to-[#be375f] rounded-xl shadow-md text-left overflow-hidden hover:shadow-lg"
+                class="h-full p-6 bg-[#222] rounded-[calc(0.75rem-2px)] text-left overflow-hidden"
               >
                 {/* card title */}
                 <h3 class="text-xl font-bold text-gray-100">

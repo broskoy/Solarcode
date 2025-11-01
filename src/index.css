@@ -1,8 +1,8 @@
-/* 1. Tell Tailwind where to scan for classes */
 @config "../tailwind-v4-content.js";
-
-/* 2. Import Tailwind's layers */
 @import "tailwindcss";
+
+
+
 
 @layer base {
   :root {

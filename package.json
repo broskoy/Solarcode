@@ -1,27 +1,28 @@
 {
-  "name": "solarcode",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "tailwind-init": "tailwindcss init -p"
-  },
-  "dependencies": {
-    "@solidjs/router": "^0.15.3",
-    "lucide-solid": "^0.548.0",
-    "solid-js": "^1.9.9"
-  },
-  "devDependencies": {
-    "@tailwindcss/vite": "^4.1.16",
-    "@types/node": "^24.6.0",
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.16",
-    "typescript": "~5.9.3",
-    "vite": "^7.1.7",
-    "vite-plugin-solid": "^2.11.8"
-  }
+    "name": "solarcode",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "tailwind-init": "tailwindcss init -p"
+    },
+    "dependencies": {
+        "@solidjs/router": "^0.15.3",
+        "lucide-solid": "^0.548.0",
+        "solid-js": "^1.9.9"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.1.16",
+        "@types/node": "^24.6.0",
+        "autoprefixer": "^10.4.21",
+        "postcss": "^8.5.6",
+        "prettier": "^3.6.2",
+        "tailwindcss": "^4.1.16",
+        "typescript": "~5.9.3",
+        "vite": "^7.1.7",
+        "vite-plugin-solid": "^2.11.8"
+    }
 }

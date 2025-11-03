@@ -1,5 +1,4 @@
 > make a simple version of the icon
 > upscale the large icon and also clean it in krita
 > add the nightly logo on a page
-> add taiwind logo in bottom bar
-> tweak bottom bar spacing and placement
+> move project to solidstart

@@ -9,10 +9,3 @@ pink = be375f
 orange = ed8554
 
 yellow = f5eb6d
-
-
-
-
-Uncertain colors:
-
-yellow = f5d248

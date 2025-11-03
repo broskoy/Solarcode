@@ -15,7 +15,7 @@ function Intro() {
         <img
           src={logoIcon}
           alt="solar"
-          class="w-1/2 h-auto transition-all duration-1000 ease-out"
+          class="w-full md:w-1/2 h-auto transition-all duration-1000 ease-out"
           classList={{
             "opacity-0 scale-125": !isMounted(),
             "opacity-100 scale-100": isMounted(),
@@ -23,7 +23,9 @@ function Intro() {
         />
       </div>
 
-      <h2 class="text-3xl font-bold mb-20 text-gray-100">
+      <h2 
+        class="text-2xl md:text-3xl font-bold mb-16 md:mb-20 text-gray-100 text-center"
+      >
         <For each={titleWords}>
           {(word, index) => (
             <>

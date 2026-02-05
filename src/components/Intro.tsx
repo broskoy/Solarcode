@@ -11,7 +11,7 @@ function Intro() {
 
   return (
     <>
-      <div class="flex justify-center items-center mt-0 mb-4 gap-0">
+      <div class="flex justify-center items-center mt-10 mb-4 gap-0">
         <img
           src={logoIcon}
           alt="solar"

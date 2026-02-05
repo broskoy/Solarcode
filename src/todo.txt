@@ -2,3 +2,5 @@
 > upscale the large icon and also clean it in krita
 > add the nightly logo on a page
 > move project to solidstart
+> tweak the burger menu
+> bottom bar on mobile has no y axis space for elements
